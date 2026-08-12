@@ -1,0 +1,17 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 defines the fictional dancer, wardrobe, stage, materials, palette, and photographic treatment. @Video1 is a hybrid control video: grayscale depth is authoritative for body volume, spatial motion, and timing; cyan joints clarify limb mechanics; pink contours clarify head pose and facial performance. Use only those motion signals. Do not render gray depth shading, neon lines, a mesh, or a black background. Preserve @Image1 identity and generate a stable cinematic live-action performance for exactly four seconds.",
+  "refs": [
+    { "kind": "image", "src": "asset://target-look" },
+    { "kind": "video", "src": "comp://hybrid-guide" }
+  ],
+  "tier": "fast",
+  "resolution": "480p",
+  "duration": 4,
+  "aspect": "9:16",
+  "audio": false,
+  "fps": 24,
+  "take": 0
+}

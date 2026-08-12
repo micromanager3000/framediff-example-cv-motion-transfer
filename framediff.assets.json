@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "assets": {
+    "performance-source": {
+      "name": "performance-source.mp4",
+      "contentHash": "sha256:10cd4203a11552a14a69d1a856629ad8a6cf91c0dacb0b7592bb04c8fcb0544d",
+      "mime": "video/mp4",
+      "bytes": 604353,
+      "sources": [
+        "/__framediff-cache/sha256%3A10cd4203a11552a14a69d1a856629ad8a6cf91c0dacb0b7592bb04c8fcb0544d"
+      ]
+    },
+    "target-look": {
+      "name": "lighthouseKeeper.image--sha256-7cc0c19e71b8355a674753e7b0770a630d40052b0c688424738043a0b41f6f45.png",
+      "contentHash": "sha256:7cc0c19e71b8355a674753e7b0770a630d40052b0c688424738043a0b41f6f45",
+      "mime": "image/png",
+      "bytes": 1546295,
+      "sources": [
+        "/__framediff-cache/sha256%3A7cc0c19e71b8355a674753e7b0770a630d40052b0c688424738043a0b41f6f45"
+      ]
+    },
+    "depth-guide": {
+      "name": "DepthGuide.mp4",
+      "contentHash": "sha256:467f3e1013d38a4bbda043fc3a2d6ae138a609eea26ed4fdf8a296bc4fcf6dc1",
+      "mime": "video/mp4",
+      "bytes": 264328,
+      "sources": [
+        "/__framediff-cache/sha256%3A467f3e1013d38a4bbda043fc3a2d6ae138a609eea26ed4fdf8a296bc4fcf6dc1"
+      ]
+    }
+  }
+}

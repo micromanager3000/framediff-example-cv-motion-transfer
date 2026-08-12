@@ -1,0 +1,66 @@
+{
+  "recipe": {
+    "version": 1,
+    "kind": "processing",
+    "id": "performance-depth",
+    "inputs": [
+      {
+        "name": "source",
+        "contentHash": "sha256:10cd4203a11552a14a69d1a856629ad8a6cf91c0dacb0b7592bb04c8fcb0544d",
+        "mime": "video/mp4"
+      }
+    ],
+    "parameters": {
+      "model": "VDA-Small",
+      "colormap": "grayscale",
+      "resolution": "480p",
+      "sideBySide": false
+    },
+    "provenance": {
+      "processor": "video-depth-anything-local",
+      "model": "vda-small",
+      "modelRevision": "4f5ae23172ba60fd7bc11ef671cca678842c7072",
+      "runtime": "native-import",
+      "runtimeRevision": "user-supplied-artifact"
+    }
+  },
+  "recipeFingerprint": "sha256:4a13ae342ee6dad414bb1a5ea7eaf223140f039fcd6c8362920c9d01eada6436",
+  "artifact": {
+    "version": 1,
+    "kind": "processing-artifact",
+    "recipeFingerprint": "sha256:4a13ae342ee6dad414bb1a5ea7eaf223140f039fcd6c8362920c9d01eada6436",
+    "inputs": [
+      {
+        "name": "source",
+        "contentHash": "sha256:10cd4203a11552a14a69d1a856629ad8a6cf91c0dacb0b7592bb04c8fcb0544d",
+        "mime": "video/mp4"
+      }
+    ],
+    "provenance": {
+      "processor": "video-depth-anything-local",
+      "model": "vda-small",
+      "modelRevision": "4f5ae23172ba60fd7bc11ef671cca678842c7072",
+      "runtime": "native-import",
+      "runtimeRevision": "user-supplied-artifact"
+    },
+    "channels": {
+      "depth": {
+        "name": "depth",
+        "contentHash": "sha256:467f3e1013d38a4bbda043fc3a2d6ae138a609eea26ed4fdf8a296bc4fcf6dc1",
+        "mime": "video/mp4",
+        "container": "mp4",
+        "bytes": 264328,
+        "dimensions": {
+          "width": 480,
+          "height": 854
+        },
+        "timing": {
+          "fps": 24,
+          "frameCount": 96,
+          "durationSeconds": 4
+        }
+      }
+    }
+  },
+  "pinnedRecipeFingerprint": "sha256:4a13ae342ee6dad414bb1a5ea7eaf223140f039fcd6c8362920c9d01eada6436"
+}

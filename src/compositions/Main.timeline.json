@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "source-performance", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "source-performance", "nestedScale": 0.4791666667 } },
+    { "id": "depth-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "depth-guide", "nestedScale": 0.3958333333 } },
+    { "id": "depth-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "depth-transfer", "nestedScale": 0.3958333333 } },
+    { "id": "face-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "face-guide", "nestedScale": 0.3958333333 } },
+    { "id": "face-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "face-transfer", "nestedScale": 0.3958333333 } },
+    { "id": "mocap-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "mocap-guide", "nestedScale": 0.3958333333 } },
+    { "id": "mocap-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "mocap-transfer", "nestedScale": 0.3958333333 } },
+    { "id": "hybrid-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "hybrid-guide", "nestedScale": 0.3958333333 } },
+    { "id": "hybrid-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "hybrid-transfer", "nestedScale": 0.3958333333 } }
+  ]
+}

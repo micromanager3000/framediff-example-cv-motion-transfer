@@ -1,0 +1,17 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 defines the fictional dancer, wardrobe, stage, materials, palette, and photographic treatment. @Video1 is a motion-capture guide: cyan joints describe body mechanics and pink contours describe facial performance. Copy its timing, weight shifts, limbs, head pose, eyes, brows, and mouth, but never render the skeleton, neon marks, or black background. Keep @Image1 identity and produce stable live-action anatomy for exactly four seconds.",
+  "refs": [
+    { "kind": "image", "src": "asset://target-look" },
+    { "kind": "video", "src": "comp://mocap-guide" }
+  ],
+  "tier": "fast",
+  "resolution": "480p",
+  "duration": 4,
+  "aspect": "9:16",
+  "audio": false,
+  "fps": 24,
+  "take": 0
+}

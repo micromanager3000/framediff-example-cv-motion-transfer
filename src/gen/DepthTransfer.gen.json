@@ -1,0 +1,17 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 defines the fictional dancer, wardrobe, stage, materials, palette, and photographic treatment. @Video1 is a grayscale depth motion guide. Copy only its full-body motion, silhouette changes, spatial blocking, camera, and timing; do not render a gray person or inherit the guide's appearance. Preserve the exact four-second performance. Full-body framing, natural anatomy, stable hands and feet, cinematic live-action detail.",
+  "refs": [
+    { "kind": "image", "src": "asset://target-look" },
+    { "kind": "video", "src": "comp://depth-guide" }
+  ],
+  "tier": "fast",
+  "resolution": "480p",
+  "duration": 4,
+  "aspect": "9:16",
+  "audio": false,
+  "fps": 24,
+  "take": 0
+}

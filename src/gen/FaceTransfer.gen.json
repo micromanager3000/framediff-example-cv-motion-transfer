@@ -1,0 +1,17 @@
+{
+  "provider": "fal",
+  "output": "video",
+  "model": "seedance-2.0",
+  "prompt": "@Image1 defines the fictional dancer, wardrobe, stage, materials, palette, and photographic treatment. @Video1 is a sparse facial-performance guide, not an appearance reference. Reconstruct subtle head pose, eye direction, brow motion, blinks, and mouth shape from its pink contours while keeping @Image1 identity. Do not render neon lines, a face mesh, or a black background. Natural full-body live-action performance for exactly four seconds.",
+  "refs": [
+    { "kind": "image", "src": "asset://target-look" },
+    { "kind": "video", "src": "comp://face-guide" }
+  ],
+  "tier": "fast",
+  "resolution": "480p",
+  "duration": 4,
+  "aspect": "9:16",
+  "audio": false,
+  "fps": 24,
+  "take": 0
+}

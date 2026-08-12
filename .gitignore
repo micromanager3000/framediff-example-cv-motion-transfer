@@ -1,0 +1,5 @@
+.framediff/
+.svelte-kit/
+build/
+out/
+tools/.vite/
