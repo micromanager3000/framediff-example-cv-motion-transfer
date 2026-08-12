@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { fileURLToPath, URL } from "node:url";
-import { framediffDev } from "../../packages/framediff/vite-plugin";
+import { framediffDev } from "../../packages/framediff/vite-plugin.ts";
 
 export default defineConfig({
   plugins: [sveltekit(), framediffDev()],
