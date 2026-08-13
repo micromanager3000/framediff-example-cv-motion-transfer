@@ -1,14 +1,176 @@
 {
-  "version": 1,
+  "version": 2,
   "items": [
-    { "id": "source-performance", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "source-performance", "nestedScale": 0.4791666667 } },
-    { "id": "depth-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "depth-guide", "nestedScale": 0.3958333333 } },
-    { "id": "depth-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "depth-transfer", "nestedScale": 0.3958333333 } },
-    { "id": "face-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "face-guide", "nestedScale": 0.3958333333 } },
-    { "id": "face-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "face-transfer", "nestedScale": 0.3958333333 } },
-    { "id": "mocap-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "mocap-guide", "nestedScale": 0.3958333333 } },
-    { "id": "mocap-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "mocap-transfer", "nestedScale": 0.3958333333 } },
-    { "id": "hybrid-guide-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "hybrid-guide", "nestedScale": 0.3958333333 } },
-    { "id": "hybrid-transfer-preview", "from": 0, "durationInFrames": 96, "content": { "type": "nested", "composition": "hybrid-transfer", "nestedScale": 0.3958333333 } }
+    {
+      "id": "source-performance",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "source-performance",
+        "nestedScale": 0.4791666667
+      },
+      "layout": {
+        "rect": [
+          62,
+          240,
+          230,
+          409
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "depth-guide-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "depth-guide",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          362,
+          222,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "depth-transfer-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "depth-transfer",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          566,
+          222,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "face-guide-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "face-guide",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          1140,
+          222,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "face-transfer-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "face-transfer",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          1344,
+          222,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "mocap-guide-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "mocap-guide",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          362,
+          644,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "mocap-transfer-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "mocap-transfer",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          566,
+          644,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "hybrid-guide-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "hybrid-guide",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          1140,
+          644,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "hybrid-transfer-preview",
+      "from": 0,
+      "durationInFrames": 96,
+      "content": {
+        "type": "nested",
+        "composition": "hybrid-transfer",
+        "nestedScale": 0.3958333333
+      },
+      "layout": {
+        "rect": [
+          1344,
+          644,
+          190,
+          338
+        ],
+        "fit": "cover"
+      }
+    }
   ]
 }
