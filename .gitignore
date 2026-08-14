@@ -1,5 +1,6 @@
-.framediff/
+node_modules/
 .svelte-kit/
 build/
-out/
-tools/.vite/
+.vite/
+*.log
+.DS_Store

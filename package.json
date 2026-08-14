@@ -15,9 +15,9 @@
     "depth": "node scripts/prepare-depth.mjs"
   },
   "dependencies": {
-    "@framediff/studio-model": "*",
-    "@framediff/studio-ui": "*",
-    "framediff": "*"
+    "@framediff/studio-model": "file:vendor/framediff/packages/studio-model",
+    "@framediff/studio-ui": "file:vendor/framediff/packages/studio-ui",
+    "framediff": "file:vendor/framediff/packages/framediff"
   },
   "devDependencies": {
     "@mediapipe/tasks-vision": "1.0.1",

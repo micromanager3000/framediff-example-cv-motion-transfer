@@ -1,5 +1,17 @@
 # Computer-vision motion transfer
 
+## Setup
+
+```sh
+git clone --recurse-submodules https://github.com/micromanager3000/framediff-example-cv-motion-transfer.git
+cd framediff-example-cv-motion-transfer
+npm install
+npm run dev
+```
+
+FrameDiff is pinned in `vendor/framediff` until its packages are published to npm. Update the
+pin with `git submodule update --remote vendor/framediff`, then validate and commit the gitlink.
+
 This example turns one licensed four-second performance into four appearance-free control videos,
 then wires each one into the same Seedance 2.0 reference-to-video recipe:
 
@@ -20,7 +32,7 @@ From the repository root:
 
 ```sh
 npm install
-npm run dev --workspace @framediff/example-cv-motion-transfer
+npm run dev
 ```
 
 The repository includes a 4-second, 720×1280 licensed dance excerpt, a fictional 720×1280 target
@@ -41,7 +53,7 @@ tracking.
 ### 1. Extract pose, face, and blendshapes locally
 
 ```sh
-npm run track --workspace @framediff/example-cv-motion-transfer -- /absolute/path/performance.mp4
+npm run track -- /absolute/path/performance.mp4
 ```
 
 The command runs MediaPipe entirely in local Chromium. It detects pose first, uses the pose to crop
@@ -56,7 +68,7 @@ landmarks, selected face landmarks, and 52 blendshape scores. No source pixels a
 ### 2. Generate and pin temporal depth
 
 ```sh
-npm run depth --workspace @framediff/example-cv-motion-transfer -- \
+npm run depth -- \
   /absolute/path/performance.mp4 \
   --look /absolute/path/fictional-target.png
 ```
@@ -69,7 +81,7 @@ fal price of $0.04 per input second, the four-second example costs about $0.16.
 If depth was produced elsewhere, ingest it without a provider call:
 
 ```sh
-npm run depth --workspace @framediff/example-cv-motion-transfer -- \
+npm run depth -- \
   /absolute/path/performance.mp4 \
   --look /absolute/path/fictional-target.png \
   --artifact /absolute/path/depth.mp4 \
