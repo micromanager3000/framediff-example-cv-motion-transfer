@@ -8,7 +8,45 @@
       "bytes": 604353,
       "sources": [
         "/__framediff-cache/sha256%3A10cd4203a11552a14a69d1a856629ad8a6cf91c0dacb0b7592bb04c8fcb0544d"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:ecc5f69a63d34fe24da25e63b508b65d84e2c937aaeaa28ea1225c036c51928c",
+          "mime": "video/mp4",
+          "bytes": 44818,
+          "width": 202,
+          "height": 360,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:8668469c64e02a71479aef0435f6f0c9f1c40136c1ff3c9d5d2fc130f5be809e",
+          "mime": "video/mp4",
+          "bytes": 80043,
+          "width": 304,
+          "height": 540,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:1b61654d846654ce2c12a43f38dbcde3dc96f074a563d96054e34b889959719e",
+          "mime": "video/mp4",
+          "bytes": 120492,
+          "width": 406,
+          "height": 720,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:2c82e15814e165b7a9898f3d3ff1d7cb73f67270da45c8c91e39c5c7d3133f2a",
+          "mime": "image/jpeg",
+          "bytes": 21243,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "proxy": "sha256:1b61654d846654ce2c12a43f38dbcde3dc96f074a563d96054e34b889959719e"
     },
     "target-look": {
       "name": "lighthouseKeeper.image--sha256-7cc0c19e71b8355a674753e7b0770a630d40052b0c688424738043a0b41f6f45.png",
@@ -26,7 +64,45 @@
       "bytes": 264328,
       "sources": [
         "/__framediff-cache/sha256%3A467f3e1013d38a4bbda043fc3a2d6ae138a609eea26ed4fdf8a296bc4fcf6dc1"
-      ]
+      ],
+      "representations": [
+        {
+          "profile": "proxy-360",
+          "contentHash": "sha256:42e89483f9664216ceb8b8fd04f96bff071f0176bfe87356fd74119aa8423743",
+          "mime": "video/mp4",
+          "bytes": 43004,
+          "width": 202,
+          "height": 360,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "proxy-540",
+          "contentHash": "sha256:2625d811ff9724d45f12367f4a430079e1a5749d70f3217e56baba24a8e72683",
+          "mime": "video/mp4",
+          "bytes": 71588,
+          "width": 304,
+          "height": 540,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "proxy-720",
+          "contentHash": "sha256:b6ac783b58c188afe1f45933369f2feaf188c24750ac26271a7f6457f74f73f4",
+          "mime": "video/mp4",
+          "bytes": 104238,
+          "width": 404,
+          "height": 720,
+          "durationSeconds": 4
+        },
+        {
+          "profile": "poster",
+          "contentHash": "sha256:0d2a509fcd615a9b6cf4fd7095ed26940c3e4ebbbd3c081554a56e4a23233792",
+          "mime": "image/jpeg",
+          "bytes": 11142,
+          "width": 480,
+          "height": 854
+        }
+      ],
+      "proxy": "sha256:b6ac783b58c188afe1f45933369f2feaf188c24750ac26271a7f6457f74f73f4"
     }
   }
 }
